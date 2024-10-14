@@ -1,0 +1,95 @@
+.navbar-brand {
+    font-size: 24px; 
+    font-weight: bold;
+}
+.carousel-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 75vh; 
+    margin-top: 20px; 
+}
+
+.carousel-inner {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 30px; 
+}
+
+.carousel-item img {
+    width: 100%; 
+    height: auto;
+}
+
+.description{
+    text-align: center;
+}
+.description-head{
+    font-weight: bold;
+}
+
+.left-card {
+    background-image: url('./img/2.png'); 
+}
+
+.right-card {
+    background-image: url('./img/3.png'); 
+}
+.down-card {
+    background-image: url('./img/4.png'); 
+}
+.card-head{
+    font-weight: bold;
+    color: rgb(23, 41, 57);
+}
+.card-para{
+    color: rgb(23, 41, 57);
+}
+.card {
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .delivery-fee {
+    font-size: 14px;
+    color: #666;
+  }
+
+.question-container{
+    display: flex;
+    flex-wrap:  wrap;
+
+    justify-content: center;
+    
+}
+.accordion-body{
+    text-align: center;
+}
+
+.footer-container{
+    background-color: black;
+    color: white;
+}
+
+.footer-container ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+}
